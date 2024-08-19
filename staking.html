@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Staking</title>
+
+  <link rel="stylesheet" href="css/main.css">
+
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header class="header">
+  <div class="header__container">
+    <a href="#" class="header__logo logo">
+      <img class="logo__icon" src="./img/logo-icon.svg" alt="logo">
+      <div class="logo__name">
+        <img class="logo__name-icon" src="./img/logo-name.svg" alt="logo">
+        <span class="logo__name-text">finance</span>
+      </div>
+    </a>
+    <div class="header__actions">
+      <button class="header__lang">
+        <span class="header__lang-text">EN</span>
+        <svg class="header__lang-arrow">
+          <use xlink:href="img/sprite.svg#arrow"></use>
+        </svg>
+      </button>
+      <a href="#" class="header__button button">Connect Wallet</a>
+    </div>
+
+  </div>
+</header>
+
+    <main class="page">
+
+      <div class="page__container">
+        <div class="staking">
+          <div class="staking__content">
+            <div class="staking__background ">
+              <picture>
+                <source media="(min-width: 769px)" srcset="./img/board.webp" type="image/webp">
+                <source media="(max-width: 768px)" srcset="./img/board-2.webp" type="image/webp">
+                <img src="./img/board.png" class="image" alt="">
+              </picture>
+            </div>
+            <nav class="staking__menu menu">
+              <ul class="menu__list">
+                <li class="menu__item"><a href="#" class="menu__link active">Staking</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">Partnership <span> Staking</span></a></li>
+              </ul>
+            </nav>
+            <div class="staking__body">
+              <div class="staking__info">
+                <p class="staking__info-text">
+                  Your <span class="text-yellow">APR depends</span> on the number of users you invite, 1st and
+                  2nd level referrals are taken into
+                  account:
+                </p>
+                <ul class="staking__info-list">
+                  <li class="staking__info-item">
+                    <span class="text-yellow">APR x 1</span>
+                    Number of referrals up to 30 users
+                  </li>
+                  <li class="staking__info-item">
+                    <span class="text-yellow">APR x 1.5</span>
+                    Number of referrals from 31 to 150 users
+                  </li>
+                  <li class="staking__info-item">
+                    <span class="text-yellow">APR x 2</span>
+                    Number of referrals from 151 to 300 users
+                  </li>
+                  <li class="staking__info-item">
+                    <span class="text-yellow">APR x 2.5</span>
+                    Number of referrals from 301 to 500 users
+                  </li>
+                  <li class="staking__info-item">
+                    <span class="text-yellow">APR x 3</span>
+                    Number of referrals from 500 users
+                  </li>
+                </ul>
+              </div>
+              <div class="staking__actions">
+                <div class="staking__frame">
+                  <div class="staking__actions-content">
+                    <img class="staking__actions-image" src="./img/safe.png" alt="safe-icon">
+                    <p class="staking__actions-text">Connect your wallet and stake your AVO for more
+                      benefits</p>
+                    <a href="#" class="staking__actions-btn button">Connect Wallet</a>
+                  </div>
+                  <div class="staking__frame-corner staking__frame-corner--1">
+                    <span class="staking__frame-corner-line staking__frame-corner-line--1"></span>
+                    <span class="staking__frame-corner-line staking__frame-corner-line--2"></span>
+                  </div>
+                  <div class="staking__frame-corner staking__frame-corner--2">
+                    <span class="staking__frame-corner-line staking__frame-corner-line--1"></span>
+                    <span class="staking__frame-corner-line staking__frame-corner-line--2"></span>
+                  </div>
+                  <div class="staking__frame-corner staking__frame-corner--3">
+                    <span class="staking__frame-corner-line staking__frame-corner-line--1"></span>
+                    <span class="staking__frame-corner-line staking__frame-corner-line--2"></span>
+                  </div>
+                  <div class="staking__frame-corner staking__frame-corner--4">
+                    <span class="staking__frame-corner-line staking__frame-corner-line--1"></span>
+                    <span class="staking__frame-corner-line staking__frame-corner-line--2"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="staking__pools">
+            <div class="pools">
+  <h2 class="pools__title"><span class="pools__title-avo">a<span>vo</span></span> Staking pools</h2>
+  <div class="pools__list">
+    <button class="pools__item item-pools card" data-path="stake" data-animation="fadeInUp">
+      <div class="item-pools__label">APR</div>
+      <div class="item-pools__profit">
+        from
+        <span class="item-pools__profit-from text-yellow">5.7%</span>
+        to
+        <span class="item-pools__profit-to text-yellow">17.1%</span>
+      </div>
+      <div class="item-pools__info">
+        <div class="item-pools__info-row">
+          <div class="item-pools__info-column">
+            <img class="item-pools__info-icon" src="../img/svg/calendar.svg" alt="calendar">
+            <div class="item-pools__info-text">Age:</div>
+          </div>
+          <div class="item-pools__info-column">
+            <div class="item-pools__info-value">1 month</div>
+          </div>
+        </div>
+        <div class="item-pools__info-row">
+          <div class="item-pools__info-column">
+            <img class="item-pools__info-icon" src="../img/svg/thumbs.svg" alt="thumbs">
+            <div class="item-pools__info-text">TVL:</div>
+          </div>
+          <div class="item-pools__info-column">
+            <div class="item-pools__info-value item-pools__info-value--tvl">6.7M AVO</div>
+          </div>
+        </div>
+        <div class="item-pools__info-row">
+
+          <div class="item-pools__info-column">
+            <div class="item-pools__info-value">~$15 410</div>
+          </div>
+        </div>
+      </div>
+    </button>
+    <button class="pools__item item-pools card" data-path="stake" data-animation="fadeInUp">
+      <div class="item-pools__label">APR</div>
+      <div class="item-pools__profit">
+        from
+        <span class="item-pools__profit-from text-yellow">9.3%</span>
+        to
+        <span class="item-pools__profit-to text-yellow">27.9%</span>
+      </div>
+      <div class="item-pools__info">
+        <div class="item-pools__info-row">
+          <div class="item-pools__info-column">
+            <img class="item-pools__info-icon" src="../img/svg/calendar.svg" alt="calendar">
+            <div class="item-pools__info-text">Age:</div>
+          </div>
+          <div class="item-pools__info-column">
+            <div class="item-pools__info-value">3 month</div>
+          </div>
+        </div>
+        <div class="item-pools__info-row">
+          <div class="item-pools__info-column">
+            <img class="item-pools__info-icon" src="../img/svg/thumbs.svg" alt="thumbs">
+            <div class="item-pools__info-text">TVL:</div>
+          </div>
+          <div class="item-pools__info-column">
+            <div class="item-pools__info-value item-pools__info-value--tvl">10.3M AVO</div>
+          </div>
+        </div>
+        <div class="item-pools__info-row">
+
+          <div class="item-pools__info-column">
+            <div class="item-pools__info-value">~$23 690</div>
+          </div>
+        </div>
+      </div>
+    </button>
+    <button class="pools__item item-pools card" data-path="stake" data-animation="fadeInUp">
+      <div class="item-pools__label">APR</div>
+      <div class="item-pools__profit">
+        from
+        <span class="item-pools__profit-from text-yellow">16.7%</span>
+        to
+        <span class="item-pools__profit-to text-yellow">50.1%</span>
+      </div>
+      <div class="item-pools__info">
+        <div class="item-pools__info-row">
+          <div class="item-pools__info-column">
+            <img class="item-pools__info-icon" src="../img/svg/calendar.svg" alt="calendar">
+            <div class="item-pools__info-text">Age:</div>
+          </div>
+          <div class="item-pools__info-column">
+            <div class="item-pools__info-value">6 month</div>
+          </div>
+        </div>
+        <div class="item-pools__info-row">
+          <div class="item-pools__info-column">
+            <img class="item-pools__info-icon" src="../img/svg/thumbs.svg" alt="thumbs">
+            <div class="item-pools__info-text">TVL:</div>
+          </div>
+          <div class="item-pools__info-column">
+            <div class="item-pools__info-value item-pools__info-value--tvl">31.8M AVO</div>
+          </div>
+        </div>
+        <div class="item-pools__info-row">
+
+          <div class="item-pools__info-column">
+            <div class="item-pools__info-value">~$73 140</div>
+          </div>
+        </div>
+      </div>
+    </button>
+    <button class="pools__item item-pools card" data-path="stake" data-animation="fadeInUp">
+      <div class="item-pools__label">APR</div>
+      <div class="item-pools__profit">
+        from
+        <span class="item-pools__profit-from text-yellow">20%</span>
+        to
+        <span class="item-pools__profit-to text-yellow">60%</span>
+      </div>
+      <div class="item-pools__info">
+        <div class="item-pools__info-row">
+          <div class="item-pools__info-column">
+            <img class="item-pools__info-icon" src="../img/svg/calendar.svg" alt="calendar">
+            <div class="item-pools__info-text">Age:</div>
+          </div>
+          <div class="item-pools__info-column">
+            <div class="item-pools__info-value">1 year</div>
+          </div>
+        </div>
+        <div class="item-pools__info-row">
+          <div class="item-pools__info-column">
+            <img class="item-pools__info-icon" src="../img/svg/thumbs.svg" alt="thumbs">
+            <div class="item-pools__info-text">TVL:</div>
+          </div>
+          <div class="item-pools__info-column">
+            <div class="item-pools__info-value item-pools__info-value--tvl">50.7M AVO</div>
+          </div>
+        </div>
+        <div class="item-pools__info-row">
+          <div class="item-pools__info-column">
+            <div class="item-pools__info-value">~$116 610</div>
+          </div>
+        </div>
+      </div>
+    </button>
+  </div>
+</div>
+
+          </div>
+
+        </div>
+        <div class="staking__footnotes">
+          <div class="footnotes">
+  <div class="footnotes__content">
+    <p class="footnotes__text">
+      <span>APR</span> — Annual Percentage Rate is a standardized metric used to express the cost of the potential
+      return
+      on staking a
+      certain amount of cryptocurrency over a year.
+    </p>
+    <p class="footnotes__text">
+      <span>TVL</span> — Total value locked is a metric used in the cryptocurrency sector to determine the total U.S.
+      dollar value of
+      digital assets staked via decentralized finance (DeFi) platforms or decentralized applications (dApps). The higher
+      the TVL of a project, the more secure and valuable it is perceived to be.
+    </p>
+  </div>
+
+</div>
+
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+
+  <div class="footer__container ">
+    <div class="footer__column">
+      <a href="#" class="footer__logo logo logo">
+        <img class="logo__icon logo__icon--footer" src="./img/logo-icon.svg" alt="logo">
+        <div class="logo__name logo__name--footer">
+          <img class="logo__name-icon logo__name-text--footer" src="./img/logo-name.svg" alt="logo">
+          <span class="logo__name-text logo__name-text--footer">finance</span>
+        </div>
+      </a>
+      <p class="footer__text">The future that is already accessible now</p>
+    </div>
+    <div class="footer__column">
+      <a href="#" class="footer__about">About AVOUNIVERSE</a>
+    </div>
+  </div>
+</footer>
+
+  </div>
+
+  <div class="modal">
+
+  <!-- Stake-->
+  <div class="modal__container" role="dialog" aria-modal="true" data-target="stake">
+    <button class=" modal__close js-modal-close" aria-label="close modal">
+      <svg class="modal__close-icon">
+        <use xlink:href="img/sprite.svg#close"></use>
+      </svg>
+    </button>
+    <div class="modal__body">
+      <div class="modal__image">
+        <picture>
+          <source srcset="../img/safe.webp" type="image/webp">
+          <img src="../img/safe.png" class="image" width="" height="" alt="">
+        </picture>
+      </div>
+
+      <h2 class="modal__title">STAKING</h2>
+      <p class="modal__text">You have selected staking pool for <br>
+        <span class="text-yellow">3 months</span>, please specify the number
+        of AVO you wish to stake:</p>
+      <form class="modal__form">
+        <label class="modal__form-label">AVO Amount</label>
+        <div class="modal__form-control">
+          <input type="number" class="modal__form-input" value="500000">
+          <button class="modal__form-btn-max">MAX</button>
+        </div>
+        <div class="modal__form-app">Your <span class="text-yellow">APR 13,95%</span></div>
+        <button class="modal__form-button button js-modal-close">STAKE</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Unstake-->
+  <div class="modal__container" role="dialog" aria-modal="true" data-target="unstake">
+    <button class=" modal__close js-modal-close" aria-label="close modal">
+      <svg class="modal__close-icon">
+        <use xlink:href="img/sprite.svg#close"></use>
+      </svg>
+    </button>
+    <div class="modal__body">
+      <div class="modal__image">
+        <picture>
+          <source srcset="../img/safe.webp" type="image/webp">
+          <img src="../img/safe.png" class="image" width="" height="" alt="">
+        </picture>
+      </div>
+
+      <h2 class="modal__title">UNSTAKING</h2>
+      <p class="modal__text">You have selected staking pool for <br>
+        <span class="text-yellow">3 months</span>, please specify the number
+        of AVO you wish to stake:</p>
+      <div class="modal__unstake">
+        <p class="modal__unstake-text">Unstake fee 5%</p>
+        <p class="modal__unstake-text">Your <span class="text-yellow">APR 13,95%</span></p>
+      </div>
+      <button class="modal__form-button button js-modal-close">UNSTAKE</button>
+    </div>
+  </div>
+
+</div>
+
+</body>
+
+</html>
